@@ -1,0 +1,165 @@
+figcaption {
+  font-size: 15px;
+  color: #fffad9;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  line-height: 1.2;
+}
+body {
+  cursor: url"https://eldritchaule.neocities.org/images/pencil-cursor-lightest.png", default;
+  background-color: black;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+}
+h1 {
+  background-color: #000;
+  color: #fffad9;
+  font-family: Caudex, serif;
+  font-weight: 700;
+  font-size: 3em;
+  font-style: normal;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  background-color: #000;
+  color: #fffad9;
+  font-family: Caudex, serif;
+  font-weight: 700;
+  font-size: 1.75em;
+  font-style: normal;
+}
+a {
+  color: #fffad9;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.column {
+  float: left;
+}
+#navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+#navbar li {
+  padding-top: 10px;
+}
+#navbar li a {
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+}
+#navbar li a:hover {
+  color: #fffad9;
+  text-decoration: underline;
+}
+
+.element {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#title {
+  border-radius: 20px;
+  background-color: black;
+  border: solid;
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+}
+#navbar {
+  border-radius: 20px;
+  background-color: black;
+  margin-top: 10px;
+  border: solid;
+  padding: 10px 20px 20px 20px;
+}
+#main {
+  border-radius: 20px;
+  display: flex;
+  background-color: black;
+  border: solid;
+  margin-top: 10px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  line-height: 2;
+}
+#sketch {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#badges {
+  border-radius: 20px;
+  background-color: black;
+  margin-top: 10px;
+  border: solid;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+#contact {
+  border-radius: 20px;
+  background-color: black;
+  margin-top: 10px;
+  border: solid;
+  text-align: left;
+  padding: 0 20px 20px 20px;
+}
+#mailgif {
+  float: right;
+  width: 90px;
+  height: 90px;
+}
+#mailgif2 {
+  float: center;
+  width: 107px;
+  height: 35px;
+}
+#footer {
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: black;
+  color: #fffad9;
+  border: solid;
+  border-color: white;
+  padding: 0 20px 0 20px;
+}
+#gbook {
+  background-color: #000;
+  margin-top: 10px;
+  border: solid;
+  text-align: center;
+  height: 1500px;
+  width: 99.5%
+  
+}
+
+@media (max-width: 850px) {
+  .element {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #mailgif {
+    display: none;
+  }
+  #sketch {
+    width: 50%;
+  }
+  #gbook {
+    width: 98.7%;
+    
+  }
+}
