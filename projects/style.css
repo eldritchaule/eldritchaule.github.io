@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
 figcaption {
   font-size: 15px;
   color: #fffad9;
@@ -7,10 +9,16 @@ figcaption {
   line-height: 1.2;
 }
 body {
-  cursor: url"https://eldritchaule.neocities.org/images/pencil-cursor-lightest.png", default;
   background-color: black;
   color: white;
   font-family: "Libre Caslon Text", serif;
+  background-image: url(https://files.catbox.moe/35ith6.webp);
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
   background-color: #000;
