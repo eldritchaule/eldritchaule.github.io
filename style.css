@@ -70,6 +70,14 @@ a:hover {
   color: #fffad9;
   text-decoration: underline;
 }
+#dog { 
+  max-width: 200px; 
+  height: auto;
+  position: fixed; 
+  left: 37px; 
+  top: 9px; 
+  z-index: 200;
+}
 
 .element {
   max-width: 60%;
@@ -171,6 +179,9 @@ a:hover {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+  #dog {
+    display: none;
   }
   #mailgif {
     display: none;
