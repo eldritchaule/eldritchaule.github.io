@@ -12,13 +12,21 @@ figcaption {
 }
 
 body {
-  margin: 0;
-  background-color: #000;
-  color: #fff;
-  font-family: 'Libre Caslon Text', serif;
-  background-image: url('https://files.catbox.moe/35ith6.webp');
+  cursor: url('https://files.catbox.moe/ox3frd.png'),auto;
+  animation: cursor 0.25s linear infinite;
+  background-color: black;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  background-image: url(https://files.catbox.moe/35ith6.webp);
 }
-
+@keyframes cursor{
+    0% { 
+        cursor: url(https://files.catbox.moe/ox3frd.png), auto;
+    }
+    100% { 
+        cursor: url(https://files.catbox.moe/7hw89m.png), auto;
+    }
+}
 .center-content {
   display: flex;
   flex-direction: column;
