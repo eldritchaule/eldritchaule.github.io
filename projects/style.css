@@ -1,25 +1,31 @@
+/* Import custom fonts */
 @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
 figcaption {
   font-size: 15px;
   color: #fffad9;
   font-style: italic;
   text-align: center;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0 0 0;
   line-height: 1.2;
 }
+
 body {
-  background-color: black;
-  color: white;
-  font-family: "Libre Caslon Text", serif;
-  background-image: url(https://files.catbox.moe/35ith6.webp);
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Libre Caslon Text', serif;
+  background-image: url('https://files.catbox.moe/35ith6.webp');
 }
+
 .center-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 h1 {
   background-color: #000;
   color: #fffad9;
@@ -27,10 +33,13 @@ h1 {
   font-weight: 700;
   font-size: 3em;
   font-style: normal;
+  margin: 0.5em 0;
 }
+
 h2 {
   text-align: center;
 }
+
 h3 {
   background-color: #000;
   color: #fffad9;
@@ -38,34 +47,40 @@ h3 {
   font-weight: 700;
   font-size: 1.75em;
   font-style: normal;
+  margin: 0.75em 0;
 }
+
 a {
   color: #fffad9;
-  background-color: transparent;
   text-decoration: none;
 }
+
 a:hover {
   color: #fff;
   text-decoration: underline;
 }
+
 .column {
   float: left;
 }
+
 #navbar ul {
   display: flex;
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  list-style: none;
   justify-content: space-evenly;
 }
+
 #navbar li {
   padding-top: 10px;
 }
+
 #navbar li a {
   color: #fff;
   font-weight: 800;
-  text-decoration: none;
 }
+
 #navbar li a:hover {
   color: #fffad9;
   text-decoration: underline;
@@ -73,101 +88,107 @@ a:hover {
 
 .element {
   max-width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
-#title {
+
+#title,
+#navbar,
+#main,
+#badges,
+#contact,
+#footer,
+#gbook {
   border-radius: 20px;
-  background-color: black;
-  border: solid;
-  padding: 0px 20px 20px 20px;
+  background-color: #000;
+  border: 1px solid #fff;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+#title {
+  padding-bottom: 0.5em;
   text-align: center;
 }
+
 #navbar {
-  border-radius: 20px;
-  background-color: black;
-  margin-top: 10px;
-  border: solid;
-  padding: 10px 20px 20px 20px;
+  padding-top: 10px;
 }
+
 #main {
-  border-radius: 20px;
   display: flex;
-  background-color: black;
-  border: solid;
-  margin-top: 10px;
-  padding: 20px 20px 20px 20px;
   text-align: left;
   line-height: 2;
 }
+
+#pacman {
+			height: 470px;
+			width: 382px;
+			border-radius: 5px;
+			margin: 20px auto;
+		}
+
+		#shim {
+			font-family: 'Permanent Marker', cursive;
+			position: absolute;
+			visibility: hidden
+		}
+    
 #sketch {
   width: 20%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid white;
-  border-radius: 20px;
+  margin: 0 auto;
+  border: 2px solid #fff;
 }
+
 #badges {
-  border-radius: 20px;
-  background-color: black;
-  margin-top: 10px;
-  border: solid;
   text-align: center;
-  padding: 0 20px 0 20px;
+  padding: 10px 20px;
 }
+
 #contact {
-  border-radius: 20px;
-  background-color: black;
-  margin-top: 10px;
-  border: solid;
   text-align: left;
-  padding: 0 20px 20px 20px;
+  padding-bottom: 20px;
 }
+
 #mailgif {
   float: right;
   width: 90px;
   height: 90px;
 }
+
 #mailgif2 {
-  float: center;
+  display: block;
+  margin: 10px auto;
   width: 107px;
   height: 35px;
 }
+
 #footer {
-  border-radius: 20px;
-  margin-top: 10px;
   text-align: center;
-  background-color: black;
   color: #fffad9;
-  border: solid;
-  border-color: white;
-  padding: 0 20px 0 20px;
+  padding: 10px 20px;
 }
+
 #gbook {
-  background-color: #000;
-  margin-top: 10px;
-  border: solid;
   text-align: center;
   height: 1500px;
-  width: 99.5%
-  
+  width: 99.5%;
 }
 
 @media (max-width: 850px) {
   .element {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
+
   #mailgif {
     display: none;
   }
+
   #sketch {
     width: 50%;
   }
+
   #gbook {
     width: 98.7%;
-    
   }
 }
