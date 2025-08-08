@@ -1,6 +1,6 @@
 /* Import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap");
 
 figcaption {
   font-size: 15px;
@@ -12,20 +12,20 @@ figcaption {
 }
 
 body {
-  cursor: url('https://files.catbox.moe/ox3frd.png'),auto;
+  cursor: url("https://files.catbox.moe/ox3frd.png"), auto;
   animation: cursor 0.25s linear infinite;
   background-color: black;
   color: white;
   font-family: "Libre Caslon Text", serif;
   background-image: url(https://files.catbox.moe/35ith6.webp);
 }
-@keyframes cursor{
-    0% { 
-        cursor: url(https://files.catbox.moe/ox3frd.png), auto;
-    }
-    100% { 
-        cursor: url(https://files.catbox.moe/7hw89m.png), auto;
-    }
+@keyframes cursor {
+  0% {
+    cursor: url(https://files.catbox.moe/ox3frd.png), auto;
+  }
+  100% {
+    cursor: url(https://files.catbox.moe/7hw89m.png), auto;
+  }
 }
 .center-content {
   display: flex;
@@ -109,7 +109,7 @@ a:hover {
 #gbook {
   border-radius: 20px;
   background-color: #000;
-  border: 1px solid #fff;
+  border: solid #fff;
   margin-top: 10px;
   padding: 20px;
 }
@@ -129,19 +129,6 @@ a:hover {
   line-height: 2;
 }
 
-#pacman {
-			height: 470px;
-			width: 382px;
-			border-radius: 5px;
-			margin: 20px auto;
-		}
-
-		#shim {
-			font-family: 'Permanent Marker', cursive;
-			position: absolute;
-			visibility: hidden
-		}
-    
 #sketch {
   width: 20%;
   display: block;

@@ -1,6 +1,6 @@
 /* Import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap");
 
 figcaption {
   font-size: 15px;
@@ -11,20 +11,20 @@ figcaption {
   line-height: 1.2;
 }
 body {
-  cursor: url('https://files.catbox.moe/ox3frd.png'),auto;
+  cursor: url("https://files.catbox.moe/ox3frd.png"), auto;
   animation: cursor 0.25s linear infinite;
   background-color: black;
   color: white;
   font-family: "Libre Caslon Text", serif;
   background-image: url(https://files.catbox.moe/35ith6.webp);
 }
-@keyframes cursor{
-    0% { 
-        cursor: url(https://files.catbox.moe/ox3frd.png), auto;
-    }
-    100% { 
-        cursor: url(https://files.catbox.moe/7hw89m.png), auto;
-    }
+@keyframes cursor {
+  0% {
+    cursor: url(https://files.catbox.moe/ox3frd.png), auto;
+  }
+  100% {
+    cursor: url(https://files.catbox.moe/7hw89m.png), auto;
+  }
 }
 .center-content {
   display: flex;
@@ -170,8 +170,7 @@ a:hover {
   border: solid;
   text-align: center;
   height: 1500px;
-  width: 99.5%
-  
+  width: 99.5%;
 }
 
 @media (max-width: 850px) {
@@ -190,6 +189,6 @@ a:hover {
     width: 98.7%;
   }
   #story {
-  padding: 50px 20px 50px 20px;
+    padding: 50px 20px 50px 20px;
   }
 }
